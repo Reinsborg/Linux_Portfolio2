@@ -1,0 +1,7 @@
+#!/sbin/openrc-run
+
+command="/bin/server_socat.sh"
+
+#command_background=true
+pidfile="/run/socat.pid"
+
