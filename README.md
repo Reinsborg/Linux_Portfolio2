@@ -13,7 +13,7 @@ da det ikke virkede efter hensigten ændrede vi /dev/random til /dev/urandom.
 Som giver et pseudo random tal i stedet.
 Socat blev brugt til at lytte på port 8080.
 iptables blev brug til at "preroute" alt kommunikation fra "wlan0"(host name) 
-port 80 til C1 10.0.3.11 port 80 
+port 80 til C1 10.0.3.11 port 80. This functionality has been added to portforwarding.sh
 
 For at automatisere socat, servicen socat_init blevet tilføjet til openrc's 
 default runlevel med kommandoen "rc_update add socat_init default".
